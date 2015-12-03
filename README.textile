@@ -10,6 +10,10 @@
  ircd.js
 </pre>
 
+
+This is just more stuff I plan to add onto the server, including full integration with the KBVE Auth System.
+
+
 h3. About
 
 I'm implementing "RFC 1459":https://tools.ietf.org/html/rfc1459 / "RFC 2812":https://tools.ietf.org/html/rfc2812 for "Node.js":http://nodejs.org/.
