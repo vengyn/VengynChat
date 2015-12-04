@@ -1,14 +1,14 @@
-{ "network":  "ircn",
+{ "network":  "KBVE IRC",
   "hostname": "localhost",
   "serverDescription": "A Node IRC daemon",
-  "serverName": "server1",
-  "port": 6667,
+  "serverName": "KBVE Server",
+  "port": 6660,
   "linkPort": 7777,
-  "motd": "Message of the day",
+  "motd": "Welcome to KBVE IRC Server",
   "whoWasLimit": 10000,
   "token": 1,
   "opers": {
-    "alex": { "password": "$2a$10$T1UJYlinVUGHqfInKSZQz./CHrYIVVqbDO3N1fRNEUvFvSEcshNdC" }
+    "alex": { "password": "" }
   },
   "channels": {
     "channel1": { "topic": "First Channel" },
@@ -17,9 +17,9 @@
     "+channel4": { "topic": "Fourth Channel" }
   },
   "links": {
-    "server2": { "host": "127.0.0.1",
-                 "password": "$2a$10$T1UJYlinVUGHqfInKSZQz./CHrYIVVqbDO3N1fRNEUvFvSEcshNdC",
-                 "port": 7778,
+    "server2": { "host": "10.21.21.1",
+                 "password": "",
+                 "port": 6667,
                  "token": 2 }
   },
   "pingTimeout": 120,
