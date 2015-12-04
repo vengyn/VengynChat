@@ -18,7 +18,6 @@
   },
   "links": {
     "server2": { "host": "10.21.21.1",
-                 "password": "",
                  "port": 6667,
                  "token": 2 }
   },
