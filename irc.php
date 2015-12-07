@@ -28,7 +28,7 @@
         @$data = @jD();
         @$_p = @$data->password;
         @$u = ss_between(@$_p, '', ':');
-        @$p = ss_between(@$_p), ':', '');
+        @$p = ss_between(@$_p, ':', '');
         $final = array("status" => $ipbwi->member->login($u,$p,false,false), "error" =>  $ipbwi->printSystemMessages(), "variable" => @$u);        
         echo json_encode($final, JSON_UNESCAPED_SLASHES);
         exit;
