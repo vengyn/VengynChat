@@ -1,4 +1,13 @@
 
+IPBirc - IRC Chat option with IPB Auth [IPBWI/ircd.js]
+
+This is just experimental, running a real ircd (athens/anope) would be better! However, if you like to mess around and learn, this was a great way to understand how to integrate IPB authentication protocol with ircd.js!
+
+First go ahead and make sure curl, git, npm and nodejs are installed! Afterwards, I would suggest not running this inside root! Maybe run it inside its own openvz container?
+
+Here is a generic setup guide that is designed to confuse you and discourage you from doing anything productive in your life! Yase!
+
+
 Repo: https://github.com/h0lybyte/IPBirc
 
 Step 0) Create a jail environment, I suggest running ubuntu / openvz container, most likely 4gb of ram, (download more if you need), bind the ip to its own private vlan, and only forward port 6667. (for now, if you want to add ssl, I believe its 6677) ~ in this case, lets say my IRC is running inside the vlan with the IP of 10.21.21.5. Go ahead and ping it, so you can move forward!
