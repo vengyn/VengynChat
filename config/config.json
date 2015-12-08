@@ -2,6 +2,7 @@
   "hostname": "localhost",
   "serverDescription": "A Node IRC daemon",
   "serverName": "KBVE Server",
+  "serverPassword" : true,
   "port": 6660,
   "linkPort": 7777,
   "motd": "Welcome to KBVE IRC Server",
@@ -9,7 +10,6 @@
   "token": 1,
   "opers": {
     "alex": { "password": "" }
-  },
   "channels": {
     "channel1": { "topic": "First Channel" },
     "channel2": { "topic": "Second Channel" },
