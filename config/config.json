@@ -2,7 +2,7 @@
   "hostname": "localhost",
   "serverDescription": "A Node IRC daemon",
   "serverName": "KBVE Server",
-  "serverPassword" : "yes",
+  "serverPassword": "$2a$10$T1UJYlinVUGHqfInKSZQz./CHrYIVVqbDO3N1fRNEUvFvSEcshNdC",
   "port": 6660,
   "linkPort": 7777,
   "motd": "Welcome to KBVE IRC Server",
