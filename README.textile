@@ -1,4 +1,10 @@
-This is just more stuff I plan to add onto the server, including full integration with the KBVE Auth System. Below is the readme from the original fork ^_^
+
+VengynChat ToDo
+- Finish the SSL Cert blank template
+- Finish Proxy bridge
+
+
+Previous IRCdJS readme below
 
 
 <pre>
